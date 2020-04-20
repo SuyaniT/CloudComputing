@@ -5,7 +5,7 @@ The GET methods present in the application are as follows:
 - Print everything from the database
 - Print the top 50 songs with popularity above 75
 - Print a song from a certain year
-- Print a song of a certain genre
+- Prints the genre of a certain song
 - Print lyrics using the external API(John Lennon - Imagine)
 - Print lyrics of a song of your choice(/lyrics/{artist}/{title})
 
