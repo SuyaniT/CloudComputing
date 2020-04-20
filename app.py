@@ -22,8 +22,8 @@ def top100():
 		results.append({"title":r.title,"artist":r.artist})
 	return jsonify(results)
 
-@app.route('/top50', methods=['GET'])
-def top50():
+@app.route('/popular', methods=['GET'])
+def popular():
 	rows = session.execute("""SELECT * FROM top100.stats WHERE popularity>75 ALLOW FILTERING""")
 	results=[]
 
