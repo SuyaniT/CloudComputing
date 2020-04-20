@@ -3,7 +3,7 @@ as well as a fre lyrics API.
 
 The GET methods present in the application are as follows:
 - Print everything from the database
-- Print the top 50 songs with popularity above 75
+- Print the top songs with popularity above 75
 - Print a song from a certain year
 - Prints the genre of a certain song
 - Print lyrics using the external API(John Lennon - Imagine)
